@@ -492,7 +492,12 @@ vcfPerfWorker = function(scores.tp, scores.fp, n.tn.structural, n.fn.structural)
     result
 }
 
-
+#        
+# Noted by Ted Wong
+#
+#     This is potential the place where Anaquin should go.
+#
+        
 vcfPerf = function(data, field_access_func)
 {
     # Calculate the performance of the metric accessed by field_access_func,
